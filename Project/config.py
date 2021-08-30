@@ -1,0 +1,4 @@
+
+#! Telegram Bot Keys
+BOT_TOKEN = "1982378741:AAH-mYRGfYsnU0wrPEFHwY-dh39lYqLyx7E"
+BOT_CHATID = "1146185725"
