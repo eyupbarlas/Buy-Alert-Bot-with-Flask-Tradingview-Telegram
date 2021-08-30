@@ -25,8 +25,10 @@ To build a bot for Telegram, you need to talk to [BotFather](https://telegram.me
 
 ### Setting Up the Tradingview Webhook
 ![webhook](https://user-images.githubusercontent.com/72407947/131344141-d93e9c13-dcd3-4a4b-84c4-5d207deae9ec.jpg)
+
 For the message section, enter the message in this repository.
-  
+
+
 > **Personal Information**
 > 
 >> Eyüp Barlas  eyupbarlas2134@gmail.com
