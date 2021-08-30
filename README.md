@@ -14,6 +14,10 @@
 ```
 pip install Flask
 ```
+* Requests
+```
+pip install requests
+```
 ### Deploying Python Flask App to Heroku
 > [Useful documentation by Heroku](https://devcenter.heroku.com/articles/getting-started-with-python "python app deployment")
 #### Useful terminal commands after deployment:
