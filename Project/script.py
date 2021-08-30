@@ -17,7 +17,7 @@ from config import *
 """
  
 #! Global variables 
-SYMBOL = 'SOLBUSD'
+SYMBOL = 'your coin' # for example: SOLBUSD
 
 #! Telegram Notification
 def telegram_bot_sendtext(bot_message):
