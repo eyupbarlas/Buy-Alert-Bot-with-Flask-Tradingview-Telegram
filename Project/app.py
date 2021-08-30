@@ -17,13 +17,15 @@ def webhook():
     if request.method == "POST":
         data = json.loads(request.data)
 
+        #* Token confirmation
         if data['token'] != get_token():
             return {
                 "code": "error",
                 "message": "Invalid token"
             }
 
-        
+        #* This is the indicator alert. 
+        #* Indicator(open source library in Tradingview) used in this project is: "StochasticRSI & RSI & MACD" from Crypto_Adhyeta. 
         if data['alert'] == 100:
             print("**BUY BUY BUY!**")
             telegram_bot_sendtext("***BUY BUY BUY!*** \n"+"`Symbol: {} Price: {}`".format(SYMBOL, data['bar']['open']))
