@@ -1,11 +1,11 @@
 # Buy Alert Bot by Bzzman
 
 ## About Project
-  ***Work in progress.*** This bot sends notifications to your Telegram to buy the coins you want. You need a Tradingview account to handle the webhooks. You can pick any indicator and change the settings as you wish. I chose an open source indicator("StochasticRSI & RSI & MACD") from Crypto_Adhyeta. This bot detects the alert, sends you "Buy" notifications via Telegram. This project is a simple version of my [latest project](https://github.com/eyupbarlas/Crypto-Trading-Bot-with-Tradingview-Binance-Heroku-and-Telegram). Feel free the check out!
+  ***Work in progress.*** This bot sends notifications to your Telegram to buy and sell the coins you want. You need a Tradingview account to handle the webhooks. You can pick any indicator and change the settings as you wish. I chose an open source indicator ("CM_MacD_Ult_MTF") from ChrisMoody. This bot detects the alert, sends you "Buy" notifications via Telegram. This project is a simple version of my [latest project](https://github.com/eyupbarlas/Crypto-Trading-Bot-with-Tradingview-Binance-Heroku-and-Telegram). Feel free the check out!
   
 ## Features
 * Real time data from Tradingview using webhooks
-* Telegram notifications when a buy alert raises.
+* Telegram notifications when a buy or a sell alert raises.
 * User interface ***on progress***.
 
 ## How To Use

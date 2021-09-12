@@ -25,8 +25,8 @@ def webhook():
             }
 
         #* This is the indicator alert. 
-        #* Indicator(open source library in Tradingview) used in this project is: "StochasticRSI & RSI & MACD" from Crypto_Adhyeta. 
-        if data['alert'] == 100:
+        #* Indicator(open source library in Tradingview) used in this project is: "CM_MacD_Ult_MTF" from ChrisMoody. 
+        if data['cross_histogram'] > 0:
             print("**BUY BUY BUY!**")
             telegram_bot_sendtext("***BUY BUY BUY!*** \n"+"`Symbol: {} Price: {}`".format(SYMBOL, data['bar']['open']))
             return{
@@ -35,7 +35,12 @@ def webhook():
             }
         
         else:
-            pass
+            print("***SELL SELL SELL!***")
+            telegram_bot_sendtext("***SELL SELL SELL!*** \n"+"`Symbol: {} Price: {}`".format(SYMBOL, data['bar']['open']))
+            return{
+                "code" : "success",
+                "message" : "sell notification has been sent"
+            }
 
     return "**Webhook Get**"
 
