@@ -21,7 +21,7 @@ pip install requests
 ### Deploying Python Flask App to Heroku
 > [Useful documentation by Heroku](https://devcenter.heroku.com/articles/getting-started-with-python "python app deployment")
 
-> [My explaination](https://github.com/eyupbarlas/Crypto-Trading-Bot-with-Tradingview-Binance-Heroku-and-Telegram/issues/1)
+> [My explaination](https://github.com/eyupbarlas/Crypto-Trading-Bot-with-Tradingview-Binance-Heroku-and-Telegram/issues/1 "my explaination")
 #### Useful terminal commands after deployment:
 * After making a change on production: `git add .` + `git commit -am "your message"`
 * Pushing the app to the cloud: `git push heroku master`
