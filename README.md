@@ -20,9 +20,11 @@ pip install requests
 ```
 ### Deploying Python Flask App to Heroku
 > [Useful documentation by Heroku](https://devcenter.heroku.com/articles/getting-started-with-python "python app deployment")
+> [My explaination](https://github.com/eyupbarlas/Crypto-Trading-Bot-with-Tradingview-Binance-Heroku-and-Telegram/issues/1)
 #### Useful terminal commands after deployment:
 * After making a change on production: `git add .` + `git commit -am "your message"`
 * Pushing the app to the cloud: `git push heroku master`
+* Checking for logs: `heroku logs --tail`
 
 ### Setting Up Telegram Bot
 To build a bot for Telegram, you need to talk to [BotFather](https://telegram.me/botfather "BotFather") and follow the simple steps. He will give you a token to start a chat with your bot. 
